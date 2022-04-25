@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cadastro Funcionario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h2{
+                text-align: center;
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="CadastroFuncionarioServlet">
+            <div><h2><em>Formulario de cadastro de funcionario</em></h2></div>
+            <table>
+                <tr>
+                    <td>Informe o codigo do funcionario:</td><td><input type="text" name="codfuncionario"></td>
+                </tr>
+                <tr>
+                    <td>Informe o nome do funcionario:</td><td><input type="text" name="nomefuncionario"></td>
+                </tr>
+                <tr>
+                    <td>Informe o departamento do funcionario:</td><td><input type="text" name="depfuncionario"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+    <center><a href=index.html><button>Pagina Inicial</button></a></center>
+    </body>
+</html>
